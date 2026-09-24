@@ -1,0 +1,10 @@
+{
+  "name": "CareerPilot AI",
+  "short_name": "CareerPilot",
+  "description": "A privacy-first career operating system.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f9fc",
+  "theme_color": "#112c4b",
+  "icons": []
+}
