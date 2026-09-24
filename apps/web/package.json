@@ -1,0 +1,32 @@
+{
+  "name": "@careerpilot/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0 --port 3000",
+    "start": "next start --hostname 0.0.0.0 --port 3000",
+    "build": "next build",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --config vitest.config.mjs"
+  },
+  "dependencies": {
+    "@careerpilot/shared-types": "workspace:*",
+    "@careerpilot/ui": "workspace:*",
+    "next": "16.3.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.3",
+    "@types/node": "22.15.21",
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.7",
+    "eslint": "9.39.1",
+    "eslint-config-next": "16.3.5",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.70.0",
+    "vitest": "5.0.1"
+  }
+}
